@@ -12,7 +12,7 @@
 .vscode/
 
 # Build results
-
+tfs
 [Dd]ebug/
 [Rr]elease/
 x64/
