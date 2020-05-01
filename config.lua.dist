@@ -24,7 +24,7 @@ loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
-motd = "Welcome to The Forgotten Server!"
+motd = "noop"
 onePlayerOnlinePerAccount = true
 allowClones = false
 serverName = "Forgotten"
@@ -61,9 +61,9 @@ maxMarketOffersAtATimePerPlayer = 100
 
 -- MySQL
 mysqlHost = "127.0.0.1"
-mysqlUser = "forgottenserver"
-mysqlPass = ""
-mysqlDatabase = "forgottenserver"
+mysqlUser = "tfs"
+mysqlPass = "tfs"
+mysqlDatabase = "tfs"
 mysqlPort = 3306
 mysqlSock = ""
 
@@ -73,11 +73,11 @@ mysqlSock = ""
 -- may cause high CPU usage with many players and potentially affect performance!
 -- forceMonsterTypesOnLoad server loads all monster types on startup for debugging purposes, you can change to false if all of your monster files don't throw errors to save up memory.
 allowChangeOutfit = true
-freePremium = false
+freePremium = true
 kickIdlePlayerAfterMinutes = 15
 maxMessageBuffer = 4
 emoteSpells = false
-classicEquipmentSlots = false
+classicEquipmentSlots = true
 classicAttackSpeed = false
 showScriptsLogInConsole = true
 showOnlineStatusInCharlist = false
@@ -95,10 +95,10 @@ serverSaveShutdown = true
 
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
-rateExp = 5
-rateSkill = 3
-rateLoot = 2
-rateMagic = 3
+rateExp = 1
+rateSkill = 1
+rateLoot = 1
+rateMagic = 1
 rateSpawn = 1
 
 -- Monsters
@@ -122,4 +122,4 @@ startupDatabaseOptimization = false
 ownerName = ""
 ownerEmail = ""
 url = "https://otland.net/"
-location = "Sweden"
+location = "Europe"
